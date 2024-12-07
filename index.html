@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CWD Testing and Disposal</title>
+    <style>
+        table { width: 100%; border-collapse: collapse; }
+        th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+        th { background-color: #f4f4f4; }
+    </style>
+</head>
+<body>
+    <h1>CWD Testing and Disposal</h1>
+
+    <!-- Address input -->
+    <label for="addressInput">Enter Address (City, Zip Code):</label>
+    <input type="text" id="addressInput" placeholder="Enter address">
+
+    <button id="submitBtn">Submit</button>
+
+    <!-- Table to display results -->
+    <table id="results">
+        <thead>
+            <tr>
+                <th>Service</th>
+                <th>Location</th>
+                <th>Distance (km)</th>
+            </tr>
+        </thead>
+        <tbody id="table_body">
+            <!-- Results will be populated here -->
+        </tbody>
+    </table>
+
+    <script src="frontend.js"></script> <!-- Link to the frontend.js file -->
+</body>
+</html>
