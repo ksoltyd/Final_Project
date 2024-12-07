@@ -11,8 +11,7 @@ const port = 8000;
 const GEOCODE_API_KEY = 'AIzaSyBksByrL1R2XAhGmUay-Ir_JicIsnDk59k';
 const GEOCODE_API_URL = `https://maps.googleapis.com/maps/api/geocode/json?key=${GEOCODE_API_KEY}&address=`;
 
-// Sample CSV path
-const csvFilePath = '/home/ec2-user/my_project/cwd.csv';
+const csvFilePath = 'cwd.csv';
 
 // Middleware to serve static files (for index.html and frontend.js)
 app.use(express.static('public')); // Make sure index.html and frontend.js are in 'public' folder
