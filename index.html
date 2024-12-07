@@ -9,14 +9,16 @@
         th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
         th { background-color: #f4f4f4; }
     </style>
+    <!-- Google Maps API -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBksByrL1R2XAhGmUay-Ir_JicIsnDk59k&libraries=places"></script>
 </head>
 <body>
     <h1>CWD Testing and Disposal</h1>
 
-    <!-- Address input -->
+    <!-- Address input with Google Maps AutoComplete -->
     <label for="addressInput">Enter Address (City, Zip Code):</label>
-    <input type="text" id="addressInput" placeholder="Enter address">
-
+    <input type="text" id="autocomplete" placeholder="Start typing an address...">
+    
     <button id="submitBtn">Submit</button>
 
     <!-- Table to display results -->
