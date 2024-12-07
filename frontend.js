@@ -41,7 +41,7 @@ async function fetchSortedAddresses(address) {
 
     try {
         // Make a request to the backend to get the sorted addresses and distances
-        const response = await fetch(`http://174.129.26.14:8000/getSortedAddresses?address=${encodeURIComponent(address)}&service=${encodeURIComponent(service)}`);
+        const response = await fetch(`https://github.com/ksoltyd/Final_Project/blob/main/app.js?address=${encodeURIComponent(address)}&service=${encodeURIComponent(service)}`);
         const data = await response.json();
 
         // Populate the results table
